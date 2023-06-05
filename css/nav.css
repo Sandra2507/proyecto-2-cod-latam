@@ -1,0 +1,22 @@
+.bnav {
+    color: inherit;
+    size: 20px;
+    scroll-behavior: smooth;
+    padding: 10px 30px;
+    display: inline-block;
+
+}
+
+nav {
+    background-color: #fbfbfb;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.opciones {
+    display: flex;
+    list-style-type: none;
+    margin-right: 10px;
+    text-decoration: none;
+}
