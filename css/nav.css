@@ -20,3 +20,14 @@ nav {
     margin-right: 10px;
     text-decoration: none;
 }
+/* Media queries para pantallas medianas y grandes */
+@media (min-width: 1200px) {
+    nav {
+      display: flex;
+      justify-content: space-between;
+    }
+    
+    .section {
+      padding: 40px;
+    }
+  }
