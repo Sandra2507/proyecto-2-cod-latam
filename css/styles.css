@@ -55,13 +55,19 @@ img {
   align-items: center;
 }
 
-.Descargar {
+.Descargar{
   background-color: #af599e;
   color: #fbfbfb;
   font-size: 20px;
   text-align: center;
   border-radius: 50px;
   padding: 10px;
+ cursor: pointer;
+
+}
+.Descargar:hover{
+  box-shadow: 10px 10px 5pc 0px #171717;
+  background-color: #de0876;
 
 }
 
@@ -82,6 +88,10 @@ img {
 
 }
 
+.Modo_Oscuro{
+  background-color: black;
+  color: #fbfbfb;
+}
 footer {
   background-color: #af599e;
   color: #fbfbfb;

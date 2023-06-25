@@ -4,8 +4,11 @@
     scroll-behavior: smooth;
     padding: 10px 30px;
     display: inline-block;
+    transition: background-color 0.3s, color 0.3s; 
+    /* Transiciones suaves de 0.3 segundos */
 
 }
+
 
 nav {
     background-color: #fbfbfb;
@@ -14,12 +17,24 @@ nav {
     align-items: center;
 }
 
+
 .opciones {
     display: flex;
     list-style-type: none;
     margin-right: 10px;
     text-decoration: none;
+    color: black;
+    
+    
 }
+.bnav:hover {
+  /* Estilos al pasar el mouse sobre el elemento */
+  background-color: #af599e;
+  color: #fff;
+  box-shadow: 10px 10px 5pc 0px #171717;
+ 
+}
+
 /* Media queries para pantallas medianas y grandes */
 @media (min-width: 1200px) {
     nav {
