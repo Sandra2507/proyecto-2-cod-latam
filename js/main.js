@@ -9,20 +9,20 @@ opciones.forEach(function (opciones) {
         const currentopciones = document.querySelector(".bnav");
         currentopciones.classList.remove("bnav");
         e.target.classList.add("bnav");
-    
-    
 
-    
- });
+
+
+
+    });
 
 });
 
 const body = document.querySelector("body");
-const botn= document.querySelector("#boton");
+const botn = document.querySelector("#boton");
 
 botn.addEventListener("click", function (e) {
     body.classList.toggle("Modo_Oscuro");
-    
- 
+
+
 
 });

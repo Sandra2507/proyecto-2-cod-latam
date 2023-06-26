@@ -15,6 +15,7 @@ body {
   min-height: 100vh;
 }
 
+
 main {
   max-width: 768px;
   margin: auto;
@@ -44,28 +45,31 @@ h2 {
 }
 
 img {
-  border-radius:250%;
+  border-radius: 250%;
   width: 300px;
-  
+
 }
 
 .img {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 20px;
+
 }
 
-.Descargar{
+.Descargar {
   background-color: #af599e;
   color: #fbfbfb;
   font-size: 20px;
   text-align: center;
   border-radius: 50px;
   padding: 10px;
- cursor: pointer;
+  cursor: pointer;
 
 }
-.Descargar:hover{
+
+.Descargar:hover {
   box-shadow: 10px 10px 5pc 0px #171717;
   background-color: #de0876;
 
@@ -88,10 +92,7 @@ img {
 
 }
 
-.Modo_Oscuro{
-  background-color: black;
-  color: #fbfbfb;
-}
+
 footer {
   background-color: #af599e;
   color: #fbfbfb;
@@ -118,7 +119,7 @@ section {
 }
 
 p {
-  padding: 20px;
+  padding: 20px o;
 }
 
 /* En este archivo escriban su CSS */
@@ -156,29 +157,32 @@ a {
 /* Media queries */
 @media (min-width: 1200px) {
 
-  h1{
+  h1 {
     font-size: 48px;
     text-align: left;
   }
-  h2{
+
+  h2 {
     font-size: 32;
   }
-  
+
   section {
-   flex-direction:column;
+    flex-direction: column;
     font-size: 18px;
-    
+
   }
-  article.contenedor1{
+
+  article.contenedor1 {
     width: 100%;
-   text-align:left;
-   display: flex;
-   justify-content:space-evenly;
-  
+    display: flex;
+    justify-content: space-around;
+    text-align: justify;
+    line-height: 1, 2;
   }
- 
-  
+
+
 }
+
 /* Este max-width es para que el contenido no se "estire" demasiado hacia los costados y
 *  el margin: auto; para tenerlo centrado fácilmente ;)
 */
